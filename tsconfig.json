@@ -5,7 +5,10 @@
         "removeComments": true,
         "outDir": "./dist",
         "noImplicitAny": true,
-        "sourceMap": false
+        "sourceMap": false,
+        "watch": true,
+        "rootDir": "src",
+        "experimentalDecorators": true
     },
     "include": [
         "src/**/*"
